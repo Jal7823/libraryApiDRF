@@ -83,10 +83,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'libraryapidrf$libraryapidrf',
-        'USER': os.getenv('USER'),
-        'PASSWORD': os.getenv('PASSWORD'),
-        'HOST':os.getenv('HOST'),
-        'PORT':os.getenv('PORT'),
+        'USER': "libraryapidrf",
+        'PASSWORD': "23051988joswelj", 
+        'HOST':"libraryapidrf.mysql.pythonanywhere-services.com", 
+        'PORT':"3306", 
         'STORAGE_ENGINE': 'MyISAM / INNODB / ETC'
     }
 }
