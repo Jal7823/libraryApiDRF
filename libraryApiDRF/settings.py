@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'libraryApiDRF.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'libraryapidrf$libraryapidrf',
+        'NAME': 'libraryapidrf$default',
         'USER': "libraryapidrf",
         'PASSWORD': "23051988joswelj", 
         'HOST':"libraryapidrf.mysql.pythonanywhere-services.com", 
