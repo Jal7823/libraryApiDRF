@@ -86,7 +86,7 @@ DATABASES = {
         'USER': "libraryapidrf",
         'PASSWORD': "23051988joswelj", 
         'HOST':"libraryapidrf.mysql.pythonanywhere-services.com", 
-        'PORT':"3306", 
+        'PORT':3306, 
         'STORAGE_ENGINE': 'MyISAM / INNODB / ETC'
     }
 }
