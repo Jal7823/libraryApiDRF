@@ -7,7 +7,7 @@ from .viewsSets.viewsEditorial import EditorialViewSets
 
 
 router = DefaultRouter()
-router.register(r'books',BooksViewSets,basename='books')
+router.register(r'books',BooksViewSets,basename='books',tags='ksljdklsajldlk')
 router.register(r'author',AuthorViewSets,basename='author')
 router.register(r'editorial',EditorialViewSets,basename='editorial')
 router.register(r'category',CategoryViewSets,basename='category')
