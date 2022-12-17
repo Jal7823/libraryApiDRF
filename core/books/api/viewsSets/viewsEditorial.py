@@ -4,7 +4,7 @@ from rest_framework.schemas import AutoSchema
 from rest_framework.permissions import IsAuthenticated
 
 from ...models import Editorial
-from ..serializer import SerializerBooks,SerializerAuthor,SerializerEditorial,SerializerCategory
+from ..serializer import SerializerEditorial
 
 class EditorialViewSets(viewsets.ModelViewSet):
     queryset = Editorial.objects.all()
